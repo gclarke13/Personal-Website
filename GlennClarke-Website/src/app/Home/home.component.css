@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.mainContainer {
+  margin: 0;
+  background: #F2784B;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.mainHeader {
+  position: fixed;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -29.5px;
+  margin-left: -148.5px;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.txt-rotate {
+  position: fixed;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: 30px;
+  margin-left: -108.5px;
+  color: #ffffff;
+  z-index: 10;
+}

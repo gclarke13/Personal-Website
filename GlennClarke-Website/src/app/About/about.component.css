@@ -1,0 +1,200 @@
+.aboutContainer {
+  margin: 0;
+  background: #444547;
+  height: 100vh;
+  width: 100%;
+}
+
+.aboutHeader {
+  text-align: center;
+  margin-right: 1%;
+  padding-top: 4px;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  color: #ffffff;
+  text-shadow: none;
+  z-index: 5;
+  color: #F2784B;
+  position: fixed;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 10vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+.aboutContent {
+  color: #ffffff;
+  padding-top: 20vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+  width: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.skillHeader {
+  text-align: center;
+  margin-right: 1%;
+  padding-top: 4px;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  color: #ffffff;
+  text-shadow: none;
+  z-index: 5;
+  color: #F2784B;
+  position: fixed;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 5vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+.skillsContent {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  padding-top: 50px;
+}
+
+  ul > li {
+    margin-bottom: 70px;
+    background: #000;
+    height: 5px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    border-left: 1px solid #111;
+    border-top: 1px solid #111;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
+
+  ul > em {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -30px;
+  }
+
+  ul > span {
+    height: 1px;
+    margin: 2px 0;
+    background: #2187e7;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(0,198,255,0.4);
+  }
+
+.csharp {
+  width: 80%;
+  -ms-animation: html5 2s ease-out;
+  -webkit-animation: html5 2s ease-out;
+  animation: html5 2s ease-out;
+}
+
+.css3 {
+  width: 100%;
+  -ms-animation: css3 2s ease-out;
+  -webkit-animation: css3 2s ease-out;
+  animation: css3 2s ease-out;
+}
+
+.angular {
+  width: 60%;
+  -ms-animation: jquery 2s ease-out;
+  -webkit-animation: jquery 2s ease-out;
+  animation: jquery 2s ease-out;
+}
+
+.typescript {
+  width: 60%;
+  -ms-animation: photoshop 2s ease-out;
+  -webkit-animation: photoshop 2s ease-out;
+  animation: photoshop 2s ease-out;
+}
+
+.vb {
+  width: 50%;
+  -ms-animation: photoshop 2s ease-out;
+  -webkit-animation: photoshop 2s ease-out;
+  animation: photoshop 2s ease-out;
+}
+
+.photoshop {
+  width: 100%;
+  -ms-animation: photoshop 2s ease-out;
+  -webkit-animation: photoshop 2s ease-out;
+  animation: photoshop 2s ease-out;
+}
+
+@keyframes angular {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes css3 {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes csharp {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes vb {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes typescript {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
